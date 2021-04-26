@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8364c8f9-2753-46ca-968c-71bc0b7878fa" name="Default Changelist" comment="" />
+    <list default="true" id="8364c8f9-2753-46ca-968c-71bc0b7878fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/FireShot Capture 054 - Samay Raina on Instagram_ “Testing, testing. Mic check  I’M HAPPY T_ - www.instagram.com.png" beforePathEscaped="$PROJECT_DIR$/pubic/assets/FireShot Capture 054 - Samay Raina on Instagram_ “Testing, testing. Mic check 🎤 I’M HAPPY T_ - www.instagram.com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/samay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/assets/samayShitting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubic/js/script.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rTQxr0GIeIW8ekPC9ja9LHoZJ1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,16 +36,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.41" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pubic/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\standup_comedian\public\assets" />
       <recent name="E:\Github\standup_comedian\pubic\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\standup_comedian\public\assets" />
+      <recent name="E:\Github\standup_comedian\src" />
       <recent name="E:\Github\standup_comedian\pubic\assets" />
     </key>
   </component>
@@ -43,11 +63,31 @@
       <workItem from="1618997849864" duration="7400000" />
       <workItem from="1619026777805" duration="4322000" />
       <workItem from="1619093839405" duration="2660000" />
-      <workItem from="1619102454360" duration="5400000" />
+      <workItem from="1619102454360" duration="8011000" />
+      <workItem from="1619111673432" duration="4220000" />
+      <workItem from="1619163360481" duration="1223000" />
+      <workItem from="1619164712340" duration="3586000" />
+      <workItem from="1619177056261" duration="3279000" />
+      <workItem from="1619195470348" duration="1219000" />
+      <workItem from="1619244308115" duration="6738000" />
+      <workItem from="1619419232309" duration="5137000" />
+      <workItem from="1619426687528" duration="3279000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
