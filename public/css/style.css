@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&display=swap');
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.max-width {
+    max-width: 100%;
+}
+
+#navbar .max-width {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    z-index: 999;
+    transition: all 0.5s linear;
+}
+
+.moblie-nav-btn {
+    fill: white;
+}
+
+#navbar .max-width .brand-logo {
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.navs ul {
+    display: flex;
+}
+
+.navs ul li {
+    display: inline-block;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.sticky {
+    background: white;
+    color: #000 !important;
+}
+
+.sticky #svg-menu {
+    fill: black;
+}
+
+.moblie-nav-btn {
+    padding: 2rem;
+    display: none;
+}
+
+.moblie-nav-btn svg {
+    width: 4rem;
+    height: 4rem;
+}
+
+/*home section*/
+.home {
+    overflow: hidden;
+    background-image: url("../assets/Samay-Raina-YouTuber-4.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.5s linear;
+}
+
+@keyframes side {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.home .container {
+
+    max-width: 50rem;
+    margin: auto 0 0 10rem;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.sub-heading {
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.home-btn {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*videos*/
+.videos .max-width {
+    font-family: 'Abel', sans-serif;
+
+    padding: 3rem;
+    width: 100%;
+    background: #112232;
+    color: #d0c2c2;
+}
+
+.videos .max-width .heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 4rem;
+    color: white;
+}
+
+
+.videos .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videos .container .col-left {
+    font-size: 2rem;
+}
+
+.active {
+    color: white;
+}
+
+.video-item {
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem;
+}
+
+.video-item ::before {
+    content: '';
+    display: inline-block;
+    height: 4rem;
+    margin: 0 2rem;
+    text-align: center;
+    width: 4rem;
+    transform: translate(1rem, 1rem);
+    background-image: url(../assets/play.svg);
+}
+
+
+.tourDates {
+    font-family: 'Abel', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background: url("../assets/bg.jpg") no-repeat;
+
+}
+
+.tourDates .max-width {
+    width: 100%;
+}
+
+.tourDates .heading {
+    text-align: left;
+    font-size: 3rem;
+    color: whitesmoke;
+    padding: 4rem;
+    font-weight: bold;
+}
+
+.tour-item {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: white;
+}
+
+.tour-item:hover {
+    background: rgba(245, 247, 255, 0.2);
+}
+
+.tour-item .ticket {
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 6rem;
+    background: coral;
+    border-radius: 10rem;
+    transition: all 0.5s ease;
+}
+
+.ticket:hover {
+    background: none;
+    border: 2px solid coral;
+}
+
+.news .max-width {
+    padding: 4rem;
+    width: 100%;
+    background: #112232;
+}
+
+.news .heading {
+    padding: 3rem;
+}
+
+
+.overlay {
+    background: white;
+    opacity: 0.3;
+}
+
+.overlay, .card .content {
+    display: none;
+}
+
+.card :hover + .content, .overlay {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    color: white;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 2rem;
+    z-index: 90;
+    padding: 2rem 0;
+}
+
+.card .content .date {
+    margin-bottom: auto;
+}
+
+.follow .max-width {
+    background: url("../assets/FireShot Capture 054 - Samay Raina on Instagram_ “Testing, testing. Mic check 🎤 I’M HAPPY T_ - www.instagram.com.png");
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.follow .max-width a {
+    margin-top: 6rem;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 2rem 8rem;
+    background: yellow;
+    border-radius: 10rem;
+}
+
+.management .max-width {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 8rem;
+    background: #112232;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.management .col .content {
+    padding: 2rem;
+    font-size: 1.75rem;
+}
+
+.management .col .content .email, .name {
+    padding: 0 0 2rem 0;
+}
+
+.contact .max-width {
+    padding: 3rem;
+    background: url("../assets/stefano-stacchini-jhPSJDhiRyQ-unsplash.jpg");
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-size: contain;
+    background-position: center;
+}
+
+.contact .col-left {
+    max-width: 30%;
+    font-size: 1.5rem;
+
+}
+
+.contact .col-left .heading {
+    padding: 2rem 0;
+}
+
+.address-title {
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.contact .contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    background: transparent;
+    border: 2px solid white;
+    width: 40rem;
+    padding: 2rem 2rem;
+    margin: 0.5rem;
+}
+
+.contact-input::placeholder {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.submit-btn {
+    margin: 0.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    max-width: 45%;
+    background: coral;
+}
+
+/*media query*/
+@media (max-width: 900px) {
+    .youtube {
+        width: 400px;
+    }
+
+    .videos .container .col-left {
+        font-size: 1.8rem;
+    }
+
+    .tour-item {
+        font-size: 1.5rem;
+        padding: 1.7rem;
+    }
+
+    .tour-item .ticket {
+        padding: 0.7rem 6rem;
+    }
+
+    .follow .max-width a {
+        padding: 1.5rem 8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-background {
+        background: white;
+        color: black !important;
+    }
+
+    .moblie-nav-btn {
+        display: block;
+    }
+
+    .brand-logo span {
+        font-size: 2rem;
+    }
+
+    .navs ul {
+        text-align: center;
+        padding-top: 4rem;
+        flex-direction: column;
+    }
+
+    .navs ul li {
+        font-size: 1.5rem;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1.75rem;
+    }
+
+    .videos .max-width .heading {
+        font-size: 2.5rem;
+    }
+
+    .videos .container .col-left {
+        font-size: 1.4rem;
+    }
+
+    .youtube {
+        width: 300px;
+        height: 300px;
+    }
+
+    .video-item ::before {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .management .max-width {
+        padding: 5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-2 {
+        padding: 2rem 0;
+    }
+
+    .management .col .content {
+        font-size: 1.4rem;
+    }
+
+    .follow .max-width a {
+        padding: 1rem 6rem;
+    }
+
+    .contact .max-width {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-input {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .home .container {
+        margin: 0 2rem;
+        text-align: center;
+    }
+
+    .videos .container {
+        flex-direction: column;
+    }
+
+    .videos .container .col-left,
+    .videos .container .col-right {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1.4rem;
+    }
+
+    .tour-item .ticket {
+        padding: 0.2rem 4rem;
+        font-size: 1.2rem;
+    }
+}
+
